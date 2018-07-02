@@ -1,4 +1,4 @@
-# scopeDomEventMiniChallenge
+# Scope/Dom/Event Mini Challenge
 Scope/DOM/Event Mini Challenges - approx 4 hours
 
 ### Goal:
