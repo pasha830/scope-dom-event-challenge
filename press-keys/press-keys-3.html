@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pressing Keys</title>
+    <style>
+      .header {
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="header"></h1>
+  </body>
+
+  <script>
+    var headline = document.querySelector('.header')
+    window.onkeypress = function(input) {
+      headline.innerText = input.key;
+    }
+  </script>
+</html>

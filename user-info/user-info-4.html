@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User's Info</title>
+    <style>
+
+    </style>
+    <h1 class="header">Form</h1>
+  </head>
+  <body>
+    <form class="login-container" action="thankyou.html" name="form">
+        Username: <input type="text" name="username" placeholder="username">
+        Email: <input id="email" type="email" name="email" placeholder="email">
+        Password: <input class="password" type="text" name="password" placeholder="password">
+        <button class="button" type="button" name="button">Submit</button>
+    </form>
+  </body>
+  <script>
+    var button = document.querySelector('.button')
+    var headline = document.querySelector('.header')
+
+    button.onclick = function validateForm() {
+    var passwordInput = document.form.password.value;
+    var usernameInput = document.form.username.value;
+    var integerValidation = new RegExp('([0-9])')
+
+    if(!integerValidation.test(usernameInput)) {
+      alert('incorrect')
+      return false;
+    }
+    if(passwordInput !== '12345678') {
+      alert('incorrect');
+      return false;
+    }
+    headline.innerText = 'The information in the form is correct';
+}
+
+  </script>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hover Over</title>
+    <style>
+      .header {
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="header">Don't hover over me</h1>
+  </body>
+  <script>
+    var headline = document.querySelector('.header')
+
+    headline.onmouseover = function() {
+      alert("Hey, I told you not to hover over me!");
+    }
+
+  </script>
+</html>
