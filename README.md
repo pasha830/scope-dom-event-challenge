@@ -29,6 +29,6 @@ Complete and submit the following three exercises to go over JavaScript event bi
 * Code has a comment that notes which problem the code snippet is attempting to solve.
 * All solutions should explicitly fulfill the requirements noted in each problem.
 
-### Complete = Meets all grading criteria above.
+#### Complete = Meets all grading criteria above.
 
-### Incomplete = Does not meet all grading criteria above. Needs improvement or missing submission.
+#### Incomplete = Does not meet all grading criteria above. Needs improvement or missing submission.
